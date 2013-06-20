@@ -8,6 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CPPromise : NSObject
+typedef enum {
+    kPending,
+    kFulfilled,
+    kRejected
+} CPPromiseState;
+
+@class CPDeferrable;
+
+@interface CPPromise : NSObject {
+    NSMutableArray *pendingFulfillmentBlocks;
+    NSMutableArray *pendingRejectionBlocks;
+    BOOL done;
+    id resolutionValue;
+    CPPromiseState state;
+}
+
+@property (readonly) CPPromiseState state;
+
+- (CPPromise *)thenWithFulfillment:(CPPromise* (^)(id value))fufillmentBlock rejection:(CPPromise* (^)(NSError *error))rejectionBlock;
 
 @end

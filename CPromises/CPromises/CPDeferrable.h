@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class CPPromise;
+
 @interface CPDeferrable : NSObject
+
+@property (readonly) CPPromise *promise;
+
+- (void)resolve:(id)aResolutionValue;
 
 @end
