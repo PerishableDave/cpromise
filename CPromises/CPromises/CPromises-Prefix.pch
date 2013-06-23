@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'CPromises' target in the 'CPromises' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
