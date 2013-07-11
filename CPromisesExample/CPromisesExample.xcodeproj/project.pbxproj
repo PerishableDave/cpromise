@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20125CE6A32A4273BECE672A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5BDEE0559148039C362663 /* libPods.a */; };
 		BF4BAD77176C1BF90053A235 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BAD76176C1BF90053A235 /* SenTestingKit.framework */; };
 		BF4BAD79176C1BF90053A235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BAD78176C1BF90053A235 /* UIKit.framework */; };
 		BF4BAD7A176C1BF90053A235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BAD67176C1BF90053A235 /* Foundation.framework */; };
 		BF4BAD83176C1BF90053A235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF4BAD81176C1BF90053A235 /* InfoPlist.strings */; };
 		BF4BAD86176C1BF90053A235 /* CPromisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BAD85176C1BF90053A235 /* CPromisesTests.m */; };
+		BF4D23FE1776B95800A655D7 /* CPPostRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DFCBF1776B26700B20414 /* CPPostRepository.m */; };
+		BF4D24021776BA5100A655D7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4D24011776BA5100A655D7 /* libPods.a */; };
+		BF4D24031776BA6800A655D7 /* CPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DFCBC1776B06600B20414 /* CPPost.m */; };
+		BF4D24041776C89B00A655D7 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5DFCB91776AFEA00B20414 /* PostTableViewCell.xib */; };
+		BF5DFCB51776ADFF00B20414 /* CPPostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DFCB41776ADFF00B20414 /* CPPostTableViewController.m */; };
+		BF5DFCB61776AF5D00B20414 /* CPPostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DFCB41776ADFF00B20414 /* CPPostTableViewController.m */; };
+		BF5DFCBD1776B06600B20414 /* CPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DFCBC1776B06600B20414 /* CPPost.m */; };
+		BF5DFCC01776B26700B20414 /* CPPostRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DFCBF1776B26700B20414 /* CPPostRepository.m */; };
 		BFBFFF371776804700EB9485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BAD78176C1BF90053A235 /* UIKit.framework */; };
 		BFBFFF381776804700EB9485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BAD67176C1BF90053A235 /* Foundation.framework */; };
 		BFBFFF3A1776804700EB9485 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFFF391776804700EB9485 /* CoreGraphics.framework */; };
@@ -29,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040BDD286887499FA2AD2326 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		BF4BAD67176C1BF90053A235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF4BAD75176C1BF90053A235 /* CPromisesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPromisesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BAD76176C1BF90053A235 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -37,6 +47,14 @@
 		BF4BAD82176C1BF90053A235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF4BAD84176C1BF90053A235 /* CPromisesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPromisesTests.h; sourceTree = "<group>"; };
 		BF4BAD85176C1BF90053A235 /* CPromisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPromisesTests.m; sourceTree = "<group>"; };
+		BF4D24011776BA5100A655D7 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		BF5DFCB31776ADFF00B20414 /* CPPostTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPPostTableViewController.h; path = CPromisesExample/Classes/CPPostTableViewController.h; sourceTree = SOURCE_ROOT; };
+		BF5DFCB41776ADFF00B20414 /* CPPostTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPPostTableViewController.m; path = CPromisesExample/Classes/CPPostTableViewController.m; sourceTree = SOURCE_ROOT; };
+		BF5DFCB91776AFEA00B20414 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		BF5DFCBB1776B06600B20414 /* CPPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPPost.h; path = CPromisesExample/Classes/CPPost.h; sourceTree = SOURCE_ROOT; };
+		BF5DFCBC1776B06600B20414 /* CPPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPPost.m; path = CPromisesExample/Classes/CPPost.m; sourceTree = SOURCE_ROOT; };
+		BF5DFCBE1776B26700B20414 /* CPPostRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPPostRepository.h; path = CPromisesExample/Classes/CPPostRepository.h; sourceTree = SOURCE_ROOT; };
+		BF5DFCBF1776B26700B20414 /* CPPostRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPPostRepository.m; path = CPromisesExample/Classes/CPPostRepository.m; sourceTree = SOURCE_ROOT; };
 		BFBFFF361776804700EB9485 /* CPromisesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPromisesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBFFF391776804700EB9485 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BFBFFF3B1776804700EB9485 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -53,6 +71,7 @@
 		BFBFFF58177680AD00EB9485 /* CPDeferrable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPDeferrable.m; path = ../CPromises/CPDeferrable.m; sourceTree = "<group>"; };
 		BFBFFF59177680AD00EB9485 /* CPPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPPromise.h; path = ../CPromises/CPPromise.h; sourceTree = "<group>"; };
 		BFBFFF5A177680AD00EB9485 /* CPPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPPromise.m; path = ../CPromises/CPPromise.m; sourceTree = "<group>"; };
+		EC5BDEE0559148039C362663 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,7 @@
 				BF4BAD77176C1BF90053A235 /* SenTestingKit.framework in Frameworks */,
 				BF4BAD79176C1BF90053A235 /* UIKit.framework in Frameworks */,
 				BF4BAD7A176C1BF90053A235 /* Foundation.framework in Frameworks */,
+				20125CE6A32A4273BECE672A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4D24021776BA5100A655D7 /* libPods.a in Frameworks */,
 				BFBFFF371776804700EB9485 /* UIKit.framework in Frameworks */,
 				BFBFFF381776804700EB9485 /* Foundation.framework in Frameworks */,
 				BFBFFF3A1776804700EB9485 /* CoreGraphics.framework in Frameworks */,
@@ -84,10 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				BF4BAD69176C1BF90053A235 /* Classes */,
+				BF5DFCB71776AFBB00B20414 /* Resources */,
 				BFBFFF551776809200EB9485 /* Vendor */,
 				BF4BAD7E176C1BF90053A235 /* CPromisesTests */,
 				BF4BAD66176C1BF90053A235 /* Frameworks */,
 				BF4BAD65176C1BF90053A235 /* Products */,
+				040BDD286887499FA2AD2326 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +126,13 @@
 		BF4BAD66176C1BF90053A235 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF4D24011776BA5100A655D7 /* libPods.a */,
 				BF4BAD67176C1BF90053A235 /* Foundation.framework */,
 				BF4BAD76176C1BF90053A235 /* SenTestingKit.framework */,
 				BF4BAD78176C1BF90053A235 /* UIKit.framework */,
 				BFBFFF391776804700EB9485 /* CoreGraphics.framework */,
 				BFBFFF3B1776804700EB9485 /* CoreData.framework */,
+				EC5BDEE0559148039C362663 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +140,8 @@
 		BF4BAD69176C1BF90053A235 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BF5DFCB21776ACBB00B20414 /* Models */,
+				BF5DFCB11776ACB300B20414 /* Controllers */,
 				BFBFFF461776804700EB9485 /* AppDelegate.h */,
 				BFBFFF471776804700EB9485 /* AppDelegate.m */,
 				BFBFFF3E1776804700EB9485 /* Supporting Files */,
@@ -140,6 +167,42 @@
 				BF4BAD81176C1BF90053A235 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF5DFCB11776ACB300B20414 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF5DFCB31776ADFF00B20414 /* CPPostTableViewController.h */,
+				BF5DFCB41776ADFF00B20414 /* CPPostTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BF5DFCB21776ACBB00B20414 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF5DFCBB1776B06600B20414 /* CPPost.h */,
+				BF5DFCBC1776B06600B20414 /* CPPost.m */,
+				BF5DFCBE1776B26700B20414 /* CPPostRepository.h */,
+				BF5DFCBF1776B26700B20414 /* CPPostRepository.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BF5DFCB71776AFBB00B20414 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF5DFCB81776AFC600B20414 /* Nibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF5DFCB81776AFC600B20414 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				BF5DFCB91776AFEA00B20414 /* PostTableViewCell.xib */,
+			);
+			name = Nibs;
 			sourceTree = "<group>";
 		};
 		BFBFFF3E1776804700EB9485 /* Supporting Files */ = {
@@ -183,10 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF4BAD8C176C1BF90053A235 /* Build configuration list for PBXNativeTarget "CPromisesTests" */;
 			buildPhases = (
+				2A1B440B2EE348C58CACEF25 /* Check Pods Manifest.lock */,
 				BF4BAD70176C1BF90053A235 /* Sources */,
 				BF4BAD71176C1BF90053A235 /* Frameworks */,
 				BF4BAD72176C1BF90053A235 /* Resources */,
 				BF4BAD73176C1BF90053A235 /* ShellScript */,
+				E982F9ED8E254F82A3F80846 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,12 +323,27 @@
 				BFBFFF4A1776804700EB9485 /* Default.png in Resources */,
 				BFBFFF4C1776804700EB9485 /* Default@2x.png in Resources */,
 				BFBFFF4E1776804700EB9485 /* Default-568h@2x.png in Resources */,
+				BF4D24041776C89B00A655D7 /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2A1B440B2EE348C58CACEF25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		BF4BAD73176C1BF90053A235 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +357,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		E982F9ED8E254F82A3F80846 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,6 +381,9 @@
 				BF4BAD86176C1BF90053A235 /* CPromisesTests.m in Sources */,
 				BFBFFF5B177680AD00EB9485 /* CPDeferrable.m in Sources */,
 				BFBFFF5C177680AD00EB9485 /* CPPromise.m in Sources */,
+				BF5DFCB51776ADFF00B20414 /* CPPostTableViewController.m in Sources */,
+				BF5DFCBD1776B06600B20414 /* CPPost.m in Sources */,
+				BF5DFCC01776B26700B20414 /* CPPostRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +395,9 @@
 				BFBFFF481776804700EB9485 /* AppDelegate.m in Sources */,
 				BFBFFF5D1776813300EB9485 /* CPDeferrable.m in Sources */,
 				BFBFFF5E1776813600EB9485 /* CPPromise.m in Sources */,
+				BF5DFCB61776AF5D00B20414 /* CPPostTableViewController.m in Sources */,
+				BF4D23FE1776B95800A655D7 /* CPPostRepository.m in Sources */,
+				BF4D24031776BA6800A655D7 /* CPPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +478,7 @@
 		};
 		BF4BAD8D176C1BF90053A235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040BDD286887499FA2AD2326 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -393,6 +494,7 @@
 		};
 		BF4BAD8E176C1BF90053A235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040BDD286887499FA2AD2326 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -408,6 +510,7 @@
 		};
 		BFBFFF531776804700EB9485 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040BDD286887499FA2AD2326 /* Pods.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -424,6 +527,7 @@
 		};
 		BFBFFF541776804700EB9485 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040BDD286887499FA2AD2326 /* Pods.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -467,6 +571,7 @@
 				BFBFFF541776804700EB9485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
